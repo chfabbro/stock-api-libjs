@@ -1,10 +1,12 @@
-# Stock API libjs
+# Adobe Stock API SDK for JavaScript
 
 ## Overview
-This is a Javascript implementation of the various APIs provided by the Stock services.
+This is a JavaScript/Node SDK for the various APIs provided by the Adobe Stock services.
 
 ## Before You Begin
-Check out [our Getting Started documentation](https://www.adobe.io/apis/creativecloud/stock/docs/getting-started.html). At a minimum, you'll need a Stock API Key by [creating a Creative Cloud Adobe Stock integration on console.adobe.io](https://console.adobe.io/integrations/new).
+Check out [our Getting Started documentation](https://www.adobe.io/apis/creativecloud/stock/docs.html). At a minimum, you'll need a Stock API Key by [creating a Creative Cloud Adobe Stock integration on console.adobe.io](https://console.adobe.io/integrations/new).
+
+If you only need the built version of the SDK, the `dist` folder contains the files you can download and use without requiring this repository.
 
 ### Requirements
 
