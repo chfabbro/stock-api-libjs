@@ -5,7 +5,7 @@
   },
   "version": "1.0.0",
   "private": false,
-  "description": "Javascript implementation of the various APIs provided by the Stock services",
+  "description": "Javascript implementation of the various APIs provided by the Adobe Stock services",
   "main": "src/adobeStock.js",
   "scripts": {
     "test": "node node_modules/karma/bin/karma start karma.conf.js --single-run && yarn run lint",
