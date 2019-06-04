@@ -312,7 +312,6 @@ var RESULT_COLUMNS = {
   VIDEO_SMALL_PREVIEW_HEIGHT: 'video_small_preview_height',
   VIDEO_SMALL_PREVIEW_CONTENT_LENGTH: 'video_small_preview_content_length',
   VIDEO_SMALL_PREVIEW_CONTENT_TYPE: 'video_small_preview_content_type'
-  // IS_EDITORIAL: 'is_editorial', // requires feature flag to use; to be released in June
 };
 
 var LICENSE_HISTORY_RESULT_COLUMNS = {
@@ -3666,13 +3665,31 @@ exports.default = Http;
 /* 18 */
 /***/ (function(module, exports) {
 
-module.exports = {"search":"https://stock.adobe.io/Rest/Media/1/Search/Files","license_history":"https://stock.adobe.io/Rest/Libraries/1/Member/LicenseHistory","category":"https://stock.adobe.io/Rest/Media/1/Search/Category","category_tree":"https://stock.adobe.io/Rest/Media/1/Search/CategoryTree","license":"https://stock.adobe.io/Rest/Libraries/1/Content/License","license_info":"https://stock.adobe.io/Rest/Libraries/1/Content/Info","user_profile":"https://stock.adobe.io/Rest/Libraries/1/Member/Profile","abandon":"https://stock.adobe.io/Rest/Libraries/1/Member/Abandon"}
+module.exports = {
+	"search": "https://stock.adobe.io/Rest/Media/1/Search/Files",
+	"license_history": "https://stock.adobe.io/Rest/Libraries/1/Member/LicenseHistory",
+	"category": "https://stock.adobe.io/Rest/Media/1/Search/Category",
+	"category_tree": "https://stock.adobe.io/Rest/Media/1/Search/CategoryTree",
+	"license": "https://stock.adobe.io/Rest/Libraries/1/Content/License",
+	"license_info": "https://stock.adobe.io/Rest/Libraries/1/Content/Info",
+	"user_profile": "https://stock.adobe.io/Rest/Libraries/1/Member/Profile",
+	"abandon": "https://stock.adobe.io/Rest/Libraries/1/Member/Abandon"
+};
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports) {
 
-module.exports = {"search":"https://stock-stage.adobe.io/Rest/Media/1/Search/Files","license_history":"https://stock-stage.adobe.io/Rest/Libraries/1/Member/LicenseHistory","category":"https://stock-stage.adobe.io/Rest/Media/1/Search/Category","category_tree":"https://stock-stage.adobe.io/Rest/Media/1/Search/CategoryTree","license":"https://stock-stage.adobe.io/Rest/Libraries/1/Content/License","license_info":"https://stock-stage.adobe.io/Rest/Libraries/1/Content/Info","user_profile":"https://stock-stage.adobe.io/Rest/Libraries/1/Member/Profile","abandon":"https://stock-stage.adobe.io/Rest/Libraries/1/Member/Abandon"}
+module.exports = {
+	"search": "https://stock-stage.adobe.io/Rest/Media/1/Search/Files",
+	"license_history": "https://stock-stage.adobe.io/Rest/Libraries/1/Member/LicenseHistory",
+	"category": "https://stock-stage.adobe.io/Rest/Media/1/Search/Category",
+	"category_tree": "https://stock-stage.adobe.io/Rest/Media/1/Search/CategoryTree",
+	"license": "https://stock-stage.adobe.io/Rest/Libraries/1/Content/License",
+	"license_info": "https://stock-stage.adobe.io/Rest/Libraries/1/Content/Info",
+	"user_profile": "https://stock-stage.adobe.io/Rest/Libraries/1/Member/Profile",
+	"abandon": "https://stock-stage.adobe.io/Rest/Libraries/1/Member/Abandon"
+};
 
 /***/ }),
 /* 20 */
